@@ -31,34 +31,3 @@ demo.js
      				 inputSearchBox.init("searchableInput",parkingListArray) ;
    			 });
 		}) ;
-##### SCSS　
-demo.scss
-
-      .comp-inputSearchBox {
-			.dropdown-menu{
-				width: 100%;
-				max-height: 256px;
-				overflow-y: scroll;
-			}
-			padding: 0;
-			border: none;
-			.matchedStr{
-				color: #007bff;
-			}
-	 }
-	.inputSearchBox-searchableData {
-			list-style: none;
-			text-align: left;
-			padding: 0;
-			li{
-				padding: 8px 16px;
-				&:hover{
-		  				background-color: #007bff;
-		  				cursor: pointer;
-		  				color: white;
-		  				.matchedStr{
-								color: white!important;
-		 				}
-				}
-			}
-	}
