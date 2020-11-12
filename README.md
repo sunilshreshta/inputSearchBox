@@ -11,6 +11,11 @@
 ## Usage
 ##### HTML　
 demo.html
+      ...
+
+      <link rel="stylesheet" href="scss/demo.min.css">
+      
+      ...
 
       <input type="text" class="form-control" placeholder="Buscar por nombre del parking" id="searchableInput">
 
