@@ -11,6 +11,17 @@
 ![demoImage](https://iili.io/Ffz4gj.gif)
 
 ## Usage
+
+      Initialize component
+      // elementID : id attribute value of input field
+      // dataArray : list of items to search in
+
+      inputSearchBox.init(elementID, dataArray) ;
+
+      Remove component
+      // elementID : id attribute value of input field
+      inputSearchBox.destroy(elementID);
+
 ##### HTML　
 demo.html
 
