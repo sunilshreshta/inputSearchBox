@@ -4,17 +4,17 @@
 
 
 
-Input search box
+# Input search box
 =============
 
 
-##Usage
-#####HTML　
+## Usage
+##### HTML　
 demo.html
 
       <input type="text" class="form-control" placeholder="Buscar por nombre del parking" id="searchableInput">
 
-#####Javscript　
+##### Javscript　
 demo.js
 
        $(document).ready(function(){
@@ -23,7 +23,7 @@ demo.js
      				 inputSearchBox.init("searchableInput",parkingListArray) ;
    			 });
 		}) ;
-#####SCSS　
+##### SCSS　
 demo.scss
 
       .comp-inputSearchBox {
