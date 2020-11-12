@@ -13,6 +13,8 @@
 demo.html
 
       <input type="text" class="form-control" placeholder="Buscar por nombre del parking" id="searchableInput">
+      <script src="js/inputSearch.js"></script>
+      <script src="js/demo.js"></script>
 
 ##### Javscript　
 demo.js
